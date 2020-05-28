@@ -1,0 +1,82 @@
+[ 2020-05-28T22:15:15+08:00 ] 127.0.0.1 /treehole/index.php/Home/Message/delete_message
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.003000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002000s ]
+NOTIC: [8] Undefined index: message_id D:\PHP\PHPTools\Apache\htdocs\treehole\Application\Home\Controller\MessageController.class.php 第 234 行.
+
+[ 2020-05-28T22:15:42+08:00 ] 127.0.0.1 /treehole/index.php/Home/Message/delete_message
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.002000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+NOTIC: [8] Undefined index: user_id D:\PHP\PHPTools\Apache\htdocs\treehole\Application\Home\Controller\MessageController.class.php 第 243 行.
+
+[ 2020-05-28T22:17:28+08:00 ] 127.0.0.1 /treehole/index.php/Home/Message/delete_message
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+SQL: SHOW COLUMNS FROM `message` [ RunTime:0.0320s ]
+SQL: SELECT * FROM `message` LIMIT 1   [ RunTime:0.0060s ]
+
+[ 2020-05-28T22:17:40+08:00 ] 127.0.0.1 /treehole/index.php/Home/Message/delete_message
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+SQL: SHOW COLUMNS FROM `message` [ RunTime:0.0030s ]
+SQL: SELECT * FROM `message` LIMIT 1   [ RunTime:0.0000s ]
+
+[ 2020-05-28T22:19:24+08:00 ] 127.0.0.1 /treehole/index.php/Home/Message/delete_message
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+SQL: SHOW COLUMNS FROM `message` [ RunTime:0.0040s ]
+SQL: SELECT * FROM `message` LIMIT 1   [ RunTime:0.0010s ]
+NOTIC: [8] Undefined variable: return D:\PHP\PHPTools\Apache\htdocs\treehole\Application\Home\Controller\MessageController.class.php 第 264 行.
+
+[ 2020-05-28T22:19:32+08:00 ] 127.0.0.1 /treehole/index.php/Home/Message/delete_message
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.002000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002000s ]
+SQL: SHOW COLUMNS FROM `message` [ RunTime:0.0030s ]
+SQL: SELECT * FROM `message` LIMIT 1   [ RunTime:0.0000s ]
+NOTIC: [8] Undefined variable: return D:\PHP\PHPTools\Apache\htdocs\treehole\Application\Home\Controller\MessageController.class.php 第 264 行.
+
+[ 2020-05-28T22:22:48+08:00 ] 127.0.0.1 /treehole/index.php/Home/Message/delete_message
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+SQL: SHOW COLUMNS FROM `message` [ RunTime:0.0040s ]
+SQL: SELECT * FROM `message` WHERE `id` = 2 LIMIT 1   [ RunTime:0.0030s ]
+
+[ 2020-05-28T22:22:59+08:00 ] 127.0.0.1 /treehole/index.php/Home/Message/delete_message
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+SQL: SHOW COLUMNS FROM `message` [ RunTime:0.0030s ]
+SQL: SELECT * FROM `message` WHERE `id` = 3 LIMIT 1   [ RunTime:0.0010s ]
+SQL: DELETE FROM `message` WHERE `id` = 3 [ RunTime:0.0090s ]
+NOTIC: [8] Undefined variable: return D:\PHP\PHPTools\Apache\htdocs\treehole\Application\Home\Controller\MessageController.class.php 第 264 行.
+
